@@ -1,0 +1,34 @@
+{
+    "name": "geiger/psapiv2-pkg",
+    "description": "Product Services APIv2 package library",
+    "keywords": [
+        "library",
+        "PSAPIv2"
+    ],
+    "authors": [
+        {
+            "name": "Serhii Plotnikov",
+            "email": "serhii.plotnikov@binary-studio.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "moneyphp/money": "^3.2",
+        "nesbot/carbon": "^2.25.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psapiv2\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
