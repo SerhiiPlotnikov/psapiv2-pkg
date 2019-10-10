@@ -5,7 +5,6 @@ namespace Psapiv2\DataTransformer\Channel;
 
 final class Channel extends ShortChannel
 {
-
     public $department;
     public $app_name;
     public $created_at;

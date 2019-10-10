@@ -5,7 +5,7 @@ namespace Psapiv2\DataTransformer;
 
 use Carbon\Carbon;
 
-class AbstractObjectHydrator
+abstract class AbstractObjectHydrator
 {
     protected $casts = [];
     protected $hydrates = [];

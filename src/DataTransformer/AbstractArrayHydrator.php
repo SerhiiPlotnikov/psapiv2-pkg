@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Psapiv2\DataTransformer;
 
-class AbstractArrayHydrator extends \ArrayObject
+abstract class AbstractArrayHydrator extends \ArrayObject
 {
     protected $castsCollectionToType;
 
