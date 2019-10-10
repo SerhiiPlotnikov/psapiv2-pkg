@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Psapiv2\DataTransformer\ChannelProduct;
 
 use Psapiv2\DataTransformer\Accessory\AccessoryCollection;
-use Psapiv2\DataTransformer\Channel\Channel;
+use Psapiv2\DataTransformer\Channel\ShortChannel;
 use Psapiv2\DataTransformer\Decoration\DecorationCollection;
 use Psapiv2\DataTransformer\Offer\OfferCollection;
 use Psapiv2\DataTransformer\Product;
@@ -37,7 +37,7 @@ final class ChannelProduct extends ShortChannelProduct
     ];
 
     protected $hydrates = [
-        'channel' => Channel::class,
+        'channel' => ShortChannel::class,
         'product' => Product::class,
         'variants' => VariantCollection::class,
         'offers' => OfferCollection::class,
